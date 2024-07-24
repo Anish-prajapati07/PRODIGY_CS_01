@@ -1,1 +1,1 @@
-
+def encrypt(text, shift):
