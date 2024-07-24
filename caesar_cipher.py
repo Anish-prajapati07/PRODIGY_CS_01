@@ -36,10 +36,10 @@ def caesar_decrypt(ciphertext, key):
         else:
             plaintext += char
     return plaintext
-    plaintext = "ANISH PRAJAPATI"
-    key = 4
-    encrypted_text = caesar_encrypt(plaintext, key)
-    decrypted_text = caesar_decrypt(encrypted_text, key)
-    print("Original Text:", plaintext)
-    print("Encrypted Text:", encrypted_text)
-    print("Decrypted Text:", decrypted_text)
+plaintext = "ANISH PRAJAPATI"
+key = 4
+encrypted_text = caesar_encrypt(plaintext, key)
+decrypted_text = caesar_decrypt(encrypted_text, key)
+print("Original Text:", plaintext)
+print("Encrypted Text:", encrypted_text)
+print("Decrypted Text:", decrypted_text)
